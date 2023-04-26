@@ -1,7 +1,7 @@
 export const apiUrl =
 	process.env.NODE_ENV !== 'production'
 		? 'http://localhost:3010/api'
-		: 'https://sleepy-inlet-56101.herokuapp.com/api'
+		: 'https://mernstack-example-01-production-c8a7.up.railway.app/api'
 
 export const LOCAL_STORAGE_TOKEN_NAME = 'learnit-mern'
 
