@@ -8,6 +8,11 @@ const options = {
       title: "MERN STACK EXAMPLE 01",
       version: "1.0.0",
     },
+    servers: [
+      {
+        url: "https://mernstack-example-01-production-c8a7.up.railway.app/",
+      },
+    ],
     components: {
       securitySchemes: {
         Bearer: {
